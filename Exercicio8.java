@@ -9,11 +9,11 @@ public class Exercicio8 {
         int erros =0 ;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bem vindo ao Quiz Nerd \n");
+        System.out.println("Bem vindo ao Quiz Senhor dos Anéis \n");
       
         
         // Pergunta número 1
-        System.out.println("1. Em \"O Senhor dos Anéis\", qual é o verdadeiro nome do mago conhecido como Gandalf?");
+        System.out.println("1. Em \"O Senhor dos Anéis\", qual é o verdadeiro nome do mago conhecido como Gandalf?\n");
         System.out.println("a) Saruman");
         System.out.println("b) Mithrandir");
         System.out.println("c) Radagast");
