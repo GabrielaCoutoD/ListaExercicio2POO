@@ -10,28 +10,28 @@ public class Exercicio3 {
         String deficienteResposta;
 
     
-        System.out.println("Qual a sua idade: ");
-        Scanner scannerleia = new Scanner(System.in);
-        idade = scannerleia.nextInt();
+        System.out.println("Informe a sua idade: ");
+        Scanner scanner = new Scanner(System.in);
+        idade = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Está gestante? (sim/não) ");
-        gestanteResposta = scannerleia.nextLine();
-        boolean gestante = gestanteResposta.equals("sim)");
+        gestanteResposta = scanner.nextLine();
+        
         
         System.out.println("Possui alguma deficiência? (sim/não)");
-        deficienteResposta = scannerleia.nextLine();
-        boolean deficiente = deficienteResposta.equals("sim)");
+        deficienteResposta = scanner.nextLine();
+       
 
-        if (idade > 65 || deficiente || gestante) {
+        if (idade > 65 || gestanteResposta.equals("sim") || deficienteResposta.equals("sim") ) {
             System.out.println("Fila preferencial");
 
            } else { System.out.print("Fila comum");
                 
             }
             
+            scanner.close();
+
         }
 
     }
-
-
-              
