@@ -9,7 +9,7 @@ public class Exercicio8 {
         int erros =0 ;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Bem vindo ao Quiz Senhor dos Anéis \n");
+        System.out.println("Bem vindo ao Quiz Nerd \n");
       
         
         // Pergunta número 1
@@ -18,51 +18,51 @@ public class Exercicio8 {
         System.out.println("b) Mithrandir");
         System.out.println("c) Radagast");
         System.out.println("d) Sauron");
-        System.out.println("e) Alatar");
+        System.out.println("e) Alatar\n");
         
         String pergunta = scanner.nextLine();
 
         if (pergunta.equals("b") || pergunta.equals("B")) {
-            System.out.println("\nResposta correta!\n\n\n");
+            System.out.println("\nResposta correta!\n\n");
             acertos ++;
         } else {
-            System.out.println("\nErrou!\n\n\n");
+            System.out.println("\nErrou!\n\n");
             erros++;
         }
 
         //Pergunta 2
-        System.out.println("2. Em \"Senhor dos Anéis\", qual é o nome da cidade élfica onde Frodo e seus amigos são bem-vindos após sua fuga de Hobbiton?");
+        System.out.println("2. Em \"Senhor dos Anéis\", qual é o nome da cidade élfica onde Frodo e seus amigos são bem-vindos após sua fuga de Hobbiton?\n");
         System.out.println("a) Rivendell");
         System.out.println("b) Lothlórien");
         System.out.println("c) Gondor");
         System.out.println("d) Isengard");
-        System.out.println("e) Minas Tirith");
+        System.out.println("e) Minas Tirith\n");
 
         pergunta = scanner.nextLine();
 
         if (pergunta.equals("a") || pergunta.equals("A")) {
-            System.out.println("\nResposta correta!\n\n\n");
+            System.out.println("\nResposta correta!\n\n");
             acertos ++;
         } else {
-            System.out.println("\nErrou!\n\n\n");
+            System.out.println("\nErrou!\n\n");
             erros++;
         }
 
         //Pergunta 3
-        System.out.println("3. Em \"Senhor dos Anéis\", quem é o líder dos Nazgûl?");
+        System.out.println("3. Em \"Senhor dos Anéis\", quem é o líder dos Nazgûl?\n");
         System.out.println("a) Sauron");
         System.out.println("b) Saruman");
         System.out.println("c) O Rei Bruxo de Angmar");
         System.out.println("d) Gothmog");
-        System.out.println("e) Gríma Wormtongue");
+        System.out.println("e) Gríma Wormtongue\n");
 
         pergunta = scanner.nextLine();
 
         if (pergunta.equals("c") || pergunta.equals("C")) {
-            System.out.println("\nResposta correta!\n\n\n");
+            System.out.println("\nResposta correta!\n\n");
             acertos ++;
         } else {
-            System.out.println("\nErrou!\n\n\n");
+            System.out.println("\nErrou!\n\n");
             erros++;
             if (erros >= 3) {
                 System.out.println("Você perdeu! Acertou: " + acertos + " e errou: " + erros);
@@ -72,20 +72,20 @@ public class Exercicio8 {
 
 
         //Pergunta 4
-        System.out.println("4. Em \"Senhor dos Anéis\", qual é o nome do pai de Aragorn?");
+        System.out.println("4. Em \"Senhor dos Anéis\", qual é o nome do pai de Aragorn?\n");
         System.out.println("a) Elendil");
         System.out.println("b) Isildur");
         System.out.println("c) Denethor");
         System.out.println("d) Eärendil");
-        System.out.println("e) Arathorn");
+        System.out.println("e) Arathorn\n");
       
         pergunta = scanner.nextLine();
 
         if (pergunta.equals("e") || pergunta.equals("E")) {
-            System.out.println("\nResposta correta!\n\n\n");
+            System.out.println("\nResposta correta!\n\n");
             acertos ++;
         } else {
-            System.out.println("\nErrou!\n\n\n");
+            System.out.println("\nErrou!\n\n");
             erros++;
             if (erros >= 3) {
                 System.out.println("Você perdeu! Acertou: " + acertos + " e errou: " + erros);
@@ -96,20 +96,20 @@ public class Exercicio8 {
 
         //Pergunta 5
 
-        System.out.println("Em \"Senhor dos Anéis\", o que é o Um Anel?");
+        System.out.println("Em \"Senhor dos Anéis\", o que é o Um Anel?\n");
         System.out.println("a)  Um anel de invisibilidade dado a Frodo por Bilbo");
         System.out.println("b) Uma espada antiga que pertenceu a Aragorn");
         System.out.println("c) Uma relíquia dos elfos que dá poder sobre a natureza");
         System.out.println("d) Um artefato mágico criado por Sauron para controlar todos os outros anéis");
-        System.out.println("e) Um artefato que pode reviver os mortos");
+        System.out.println("e) Um artefato que pode reviver os mortos\n");
 
         pergunta = scanner.nextLine();
 
         if (pergunta.equals("d") || pergunta.equals("D")) {
-            System.out.println("\nResposta correta!\n\n\n");
+            System.out.println("\nResposta correta!\n\n");
             acertos ++;
         } else {
-            System.out.println("\nErrou!\n\n\n");
+            System.out.println("\nErrou!\n");
             erros++;
             if (erros >= 3) {
                 System.out.println("Você perdeu! Acertou: " + acertos + " e errou: " + erros);
